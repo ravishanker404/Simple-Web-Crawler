@@ -5,6 +5,7 @@ namespace Crawler;
 /**
  * Singleton Class responsible to
  * all transactions
+ * ACTS LIKE A CONTROLLER
  *
  * PHP version 5.3+
  *
