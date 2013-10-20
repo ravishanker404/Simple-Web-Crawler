@@ -16,4 +16,4 @@ Edit the value to a higher by `$crawler->setLinksAllowed(Your Value)`.
  - The object `Crawler/WebPage/Webpage.php` holds the complete property of each page (or URL.). To let add new properties like title and other details.
 
 
-**Note:-** Edit the `set_time_limit(220);` to a higher value when running in browser after exceeding the LinksAllowed value. The first two lines can be uncommented to set in production mode.
+**Note:-** Edit the `set_time_limit(220);` to a higher value.
