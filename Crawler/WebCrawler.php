@@ -35,16 +35,13 @@ class WebCrawler {
 
     /*
      * variable storing each crawler/Request object
-     * Accessed privately so that the variable is
-     * cannot be modified in child classes
      *
      * @access private
      */
     private $webPages = array();
 
     /*
-     * function to return the instance of
-     * the object. Use this incase webCrawler needs to
+     * Use this incase webCrawler needs to
      * have Static instancce and store crawls
      *
      * @return WebCrawler
@@ -56,8 +53,6 @@ class WebCrawler {
     }
 
     /*
-     * Returns WebPages
-     *
      * @return webPage
      */
     public function getWebPages(){
@@ -120,8 +115,6 @@ class WebCrawler {
     }
 
     /*
-     * Returns Depth
-     *
      * @return Depth
      */
     public function getDepth(){
@@ -129,7 +122,6 @@ class WebCrawler {
     }
 
     /*
-     * sets Depth
      * @param int $depth
      */
     public function setDepth($depth){
@@ -139,8 +131,6 @@ class WebCrawler {
     }
 
     /*
-     * Returns Number of links allowed
-     *
      * @return webPage
      */
     public function getLinksAllowed(){
@@ -154,7 +144,6 @@ class WebCrawler {
     }
 
     /*
-     * Function to check the limits set
      * Note:- Negative value is
      *        considered as no limits
      * @return bool
