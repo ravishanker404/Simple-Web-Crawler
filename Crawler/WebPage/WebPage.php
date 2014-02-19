@@ -23,8 +23,6 @@ class WebPage {
     }
 
     /*
-     * To get the URL
-     *
      * @param string $link
      */
     public function getUrl(){
