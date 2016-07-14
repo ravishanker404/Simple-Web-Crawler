@@ -1,4 +1,4 @@
-Web Crawler - RecruiterBox
+Web Crawler
 ============================
 
 This is a simple web crawler written in **`PHP`**.
